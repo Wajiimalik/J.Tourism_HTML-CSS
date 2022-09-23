@@ -1,0 +1,75 @@
+@media screen and (max-width: 1110px)
+{
+    .navbar
+    {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 4%;
+    }
+
+    .navbar ul li
+    {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+
+@media screen and (max-width: 700px) 
+{
+    .banner-inner
+    {
+        width: 100%;
+        right: 0;
+        top: 30%;
+        transform: translateY(-30%);
+    }
+
+    .about
+    {
+        flex-direction: column;
+    }
+
+    .about-text
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-text p
+    {
+        padding-right: 0%;
+    }
+
+    .about img
+    {
+        margin-top: 30px;
+        width: 100%;
+    }
+    
+    .contact-us h1
+    {
+        padding: 10px;
+        text-align: center;
+    }
+
+    footer .row1
+    {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    footer .row1 div
+    {
+        margin-bottom: 30px;
+    }
+
+    .follow-us p
+    {
+        text-align: center;
+        max-width: 100%;
+    }
+}
