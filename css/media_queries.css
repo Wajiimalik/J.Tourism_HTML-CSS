@@ -24,8 +24,8 @@
     {
         width: 100%;
         right: 0;
-        top: 30%;
-        transform: translateY(-30%);
+        /* top: 30%; */
+        /* transform: translateY(-30%); */
     }
 
     .about
